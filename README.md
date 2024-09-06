@@ -2,7 +2,6 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+In this app data are fetched from the MOCK API using AXIOS and any changes that are made by users will be reflected in the API . I'm also using the local state to store data fetched from API . By using local state we can also fetch data from local so that performance can be aided .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deployed URL : https://celebrated-bublanina-cfc32f.netlify.app/
